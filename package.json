@@ -17,16 +17,3 @@
     "@vitejs/plugin-react": "^4.0.0"
   }
 }
-
-
----
-
-⚙️ vite.config.js
-
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-
-export default defineConfig({
-  plugins: [react()]
-})
-
